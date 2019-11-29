@@ -1,1 +1,14 @@
 version: '3.5'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres
+    ports:
+    - 5432:5432
+    volumes:
+    - ./pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: changeme
+      POSTGRES_USER: pguser
+      POSTGRES_DB: tasks
