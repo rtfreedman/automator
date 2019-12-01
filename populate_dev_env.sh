@@ -1,0 +1,5 @@
+export AUTOMATORPGUSER="pguser"
+export AUTOMATORPGPASS="changeme"
+export AUTOMATORPGDB="tasks"
+export AUTOMATORPGHOST="0.0.0.0"
+export AUTOMATORPGPORT="5432"
